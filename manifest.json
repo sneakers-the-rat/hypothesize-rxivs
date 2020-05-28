@@ -1,0 +1,18 @@
+{
+
+  "description": "Automatically trigger the hypothes.is bookmarklet on *rxiv preprint servers",
+  "manifest_version": 2,
+  "name": "hypothesize-rxivs",
+  "version": "1.0",
+  "homepage_url": "https://github.com/sneakers-the-rat/hypothesize-rxivs",
+  "icons": {
+    "48": "icons/rx-48.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.biorxiv.org/*", "*://*.medrxiv.org/*", "*://*.arxiv.org/*"],
+      "js": ["hypothesize.js"]
+    }
+  ]
+
+}
