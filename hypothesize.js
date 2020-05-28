@@ -8,8 +8,6 @@ and the next era of scientific publishing ;)
 -sneakers
 */
 
-console.log('fired!');
-
 var rxiv_pdf = new RegExp(/\/pdf\/\d*\.\d*/)
 
 function hypothesize(){
